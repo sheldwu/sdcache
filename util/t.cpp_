@@ -1,0 +1,21 @@
+#include "ddcache.h"
+
+using namespace sd;
+
+int main(){
+    ddcache<int>  a;
+    char b[10000];
+    ul len = 10000;
+    a.init(22,2222,22,"bin.dat", 2, 22,0);
+    a.view_header(b, len);
+    printf("%s\n", b);
+    for(int i = 0; i<=20000;i++){
+        a.put(i, "wa");
+    }
+    a.del(2);
+    a.del(0);
+    a.get(1, b ,&len);
+    a.view_access_queue();
+    a.view_header(b, len);
+    printf("%s\n", b);
+}
