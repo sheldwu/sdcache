@@ -1,1 +1,3 @@
-open readme.html in a browser to get more information
+visit 
+http://myte.sinaapp.com/ddcache.html
+for more information
