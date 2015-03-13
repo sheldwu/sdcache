@@ -1,4 +1,4 @@
-更新信息，请到项目说明wiki https://github.com/sheldwu/sdcache
+更新信息，请到项目说明wiki http://myte.sinaapp.com/
 
 sdcache接口说明
  该项目的核心功能是对用户的url进行缓存，以避免web服务器对相同url频繁的计算，减少web服务器压力
