@@ -1,3 +1,4 @@
+更新信息，请到项目说明wiki https://github.com/sheldwu/sdcache
 sdcache接口说明
  该项目的核心功能是对用户的url进行缓存，以避免web服务器对相同url频繁的计算，减少web服务器压力
  同时节约客户端的访问时间。sdcache基于http协议，单键值储存，最大可支持压缩后1M的数据
